@@ -2,11 +2,6 @@ main {
 	display: none;
 }
 
-footer {
-	opacity: 0;
-	display: none;
-	visibility: hidden;
-}
 .loader-area {
 	position: relative;
 	text-align: center;
@@ -100,8 +95,6 @@ main img {
 	width: 35vmin;
 }
 footer {
-	position: relative;
-	bottom: 0;
 	line-height: 1rem;
 	width: 100%;
 	text-align: center;
