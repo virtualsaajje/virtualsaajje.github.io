@@ -1,6 +1,6 @@
 $(window).on("load", function () {
+	$("footer").css("display", "block");
 	$(".se-pre-con").fadeOut("slow", () => {
-		$("footer").css("display", "block");
 		$("main")
 			.css("opacity", 0)
 			.css("display", "grid")
