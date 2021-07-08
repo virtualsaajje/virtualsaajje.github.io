@@ -1,8 +1,8 @@
 const joinBtn = document.querySelector("button");
-const uname = getUrlVars()["uname"].replaceAll("%20"," ");
+const uname = getUrlVars()["uname"];
 const name = document.getElementById("name");
 if(uname){
-	name.textContent = uname;
+	name.textContent = uname.replaceAll("%20"," ");
 }else{
 	name.textContent = "Everyone"
 }
