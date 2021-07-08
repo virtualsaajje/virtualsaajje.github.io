@@ -9,7 +9,7 @@ function getUrlVars() {
 }
 
 joinBtn.addEventListener("click", () => {
-	alert("This button will be enabled 30 minutes before the event.");
+	alert("testing");
 	var fType = getUrlVars()["uname"];
 	if(fType){
 		window.open(`https://us04web.zoom.us/j/76805975364?pwd=bDA1OUFPeHJLNzA4NFJ3OGlIV2ZEUT09&uname=${fType}`);
