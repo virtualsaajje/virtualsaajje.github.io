@@ -16,7 +16,7 @@ function getUrlVars() {
 }
 
 joinBtn.addEventListener("click", () => {
-	alert("testing");
+	alert("Please rename yourself to INDEX_NO__NAME_WITH_INITIALS");
 	if(uname){
 		window.open(`https://us04web.zoom.us/j/76805975364?pwd=bDA1OUFPeHJLNzA4NFJ3OGlIV2ZEUT09&uname=${uname}`);
 	}else{
