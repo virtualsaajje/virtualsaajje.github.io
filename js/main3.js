@@ -1,5 +1,5 @@
 const joinBtn = document.querySelector("button");
-const uname = getUrlVars()["uname"];
+const uname = getUrlVars()["uname"].str.replace("%20"," ");
 const name = document.getElementById("name");
 if(uname){
 	name.textContent = uname;
