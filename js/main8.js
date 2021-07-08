@@ -16,10 +16,10 @@ function getUrlVars() {
 }
 
 joinBtn.addEventListener("click", () => {
-	alert("Please rename yourself to INDEX_NO__NAME_WITH_INITIALS");
-	if(uname){
-		window.open(`https://us04web.zoom.us/j/76805975364?pwd=bDA1OUFPeHJLNzA4NFJ3OGlIV2ZEUT09&uname=${uname}`);
-	}else{
-		window.open(`https://us04web.zoom.us/j/76805975364?pwd=bDA1OUFPeHJLNzA4NFJ3OGlIV2ZEUT09`);
-	}
+	alert("We will enable this link 30 minutes before the event");
+// 	if(uname){
+// 		window.open(`https://us04web.zoom.us/j/76805975364?pwd=bDA1OUFPeHJLNzA4NFJ3OGlIV2ZEUT09&uname=${uname}`);
+// 	}else{
+// 		window.open(`https://us04web.zoom.us/j/76805975364?pwd=bDA1OUFPeHJLNzA4NFJ3OGlIV2ZEUT09`);
+// 	}
 });
