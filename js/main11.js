@@ -18,8 +18,8 @@ function getUrlVars() {
 joinBtn.addEventListener("click", () => {
 	alert("Please rename yourself to INDEX_NO__NAME_WITH_INITIALS if it is different.");
 	if(uname){
-		window.location.href(`https://learn.zoom.us/j/61522408987?pwd=bEg5clZ5RGpWNmh2TFN1S2piZGZ3dz09&uname=${uname}`);
+		window.location.href=`https://learn.zoom.us/j/61522408987?pwd=bEg5clZ5RGpWNmh2TFN1S2piZGZ3dz09&uname=${uname}`;
 	}else{
-		window.location.href(`https://learn.zoom.us/j/61522408987?pwd=bEg5clZ5RGpWNmh2TFN1S2piZGZ3dz09`);
+		window.location.href=`https://learn.zoom.us/j/61522408987?pwd=bEg5clZ5RGpWNmh2TFN1S2piZGZ3dz09`;
 	}
 });
